@@ -1,0 +1,17 @@
+﻿<Window x:Class="ChessGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chess Game" Height="450" Width="800">
+
+    <Grid>
+        <!-- Plansza do gry -->
+        <Grid Name="ChessBoard" ShowGridLines="True">
+            <!-- Pionek -->
+            <Ellipse Name="ChessPiece" Fill="Red" Width="50" Height="50" 
+                     HorizontalAlignment="Left" VerticalAlignment="Top"
+                     MouseLeftButtonDown="ChessPiece_MouseLeftButtonDown"
+                     MouseMove="ChessPiece_MouseMove"
+                     MouseLeftButtonUp="ChessPiece_MouseLeftButtonUp"/>
+        </Grid>
+    </Grid>
+</Window>

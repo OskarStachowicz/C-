@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\C#\SzachyWPF\plansza\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\User\Desktop\C#\SzachyWPF\plansza\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\User\Desktop\C#\SzachyWPF\plansza\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\User\Desktop\C#\SzachyWPF\plansza\obj\Debug\net8.0-windows\plansza_MarkupCompile.cache
+C:\Users\User\Desktop\C#\SzachyWPF\plansza\obj\Debug\net8.0-windows\plansza.g.resources
+C:\Users\User\Desktop\C#\SzachyWPF\plansza\obj\Debug\net8.0-windows\plansza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\C#\SzachyWPF\plansza\obj\Debug\net8.0-windows\plansza.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\C#\SzachyWPF\plansza\obj\Debug\net8.0-windows\plansza.AssemblyInfo.cs
+C:\Users\User\Desktop\C#\SzachyWPF\plansza\obj\Debug\net8.0-windows\plansza.csproj.CoreCompileInputs.cache

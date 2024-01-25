@@ -1,0 +1,540 @@
+﻿<Window x:Class="SzachyWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SzachyWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,0" Background="#303137">
+        <Grid Height="400" Width="400" Name="Plansza">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <WrapPanel Background="#7D945D" Grid.Row="0" Grid.Column="1">
+                <Image 
+    Source="/black knight.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="1" Grid.Column="0">
+                <!--<TextBlock
+                    Text="7"
+                    Foreground="#EEEED5" 
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    />-->
+                <Image 
+    Source="/black pawn1.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="3" Grid.Column="0">
+                <!--<TextBlock
+                    Text="5"
+                    Foreground="#EEEED5" 
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    />-->
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="5" Grid.Column="0">
+                <!--<TextBlock
+                    Text="3"
+                    Foreground="#EEEED5" 
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    />-->
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="7" Grid.Column="0">
+                <!--<TextBlock
+                    Text="1"
+                    Foreground="#EEEED5" 
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    />-->
+                <Image 
+                    Source="/white rook.png"
+                    Width="50"
+                    Height="50"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                />
+                <!--<TextBlock
+                    Text="a"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="30 30 0 0"
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    Foreground="#EEEED5"
+                    />-->
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="2" Grid.Column="1">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="4" Grid.Column="1">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="6" Grid.Column="1">
+                <Image 
+    Source="/white pawn2.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="1" Grid.Column="2">
+                <Image 
+    Source="/black pawn3.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="3" Grid.Column="2">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="5" Grid.Column="2">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="7" Grid.Column="2">
+                <!--<TextBlock
+                    Text="c"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="0 30 4 0"
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    Foreground="#EEEED5"
+                    />-->
+                <Image 
+    Source="/white bishop.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="0" Grid.Column="3">
+                <Image 
+    Source="/black queen.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="2" Grid.Column="3">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="4" Grid.Column="3">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="6" Grid.Column="3">
+                <Image 
+    Source="/white pawn4.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="1" Grid.Column="4">
+                <Image 
+    Source="/black pawn5.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="3" Grid.Column="4">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="5" Grid.Column="4">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="7" Grid.Column="4">
+                <!--<TextBlock
+                    Text="e"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="0 30 4 0"
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    Foreground="#EEEED5"
+                    />-->
+                <Image 
+    Source="/white king.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="0" Grid.Column="5">
+                <Image 
+    Source="/black bishop2.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="2" Grid.Column="5">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="4" Grid.Column="5">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="6" Grid.Column="5">
+                <Image 
+    Source="/white pawn6.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="1" Grid.Column="6">
+                <Image 
+    Source="/black pawn7.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="3" Grid.Column="6">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="5" Grid.Column="6">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="7" Grid.Column="6">
+                <!--<TextBlock
+                    Text="g"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="0 30 4 0"
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    Foreground="#EEEED5"
+                    />-->
+                <Image 
+    Source="/white knight2.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="0" Grid.Column="7">
+                <Image 
+    Source="/black rook2.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="2" Grid.Column="7">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="4" Grid.Column="7">
+
+            </WrapPanel>
+            <WrapPanel Background="#7D945D" Grid.Row="6" Grid.Column="7">
+                <Image 
+    Source="/white pawn8.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="0" Grid.Column="0">
+                <!--<TextBlock
+                    Text="8"
+                    Foreground="#7D945D" 
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    />-->
+                <Image 
+    Source="/black rook.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="2" Grid.Column="0">
+                <!--<TextBlock
+                    Text="6"
+                    Foreground="#7D945D" 
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    />-->
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="4" Grid.Column="0">
+                <!--<TextBlock
+                    Text="4"
+                    Foreground="#7D945D" 
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    />-->
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="6" Grid.Column="0">
+                <!--<TextBlock
+                    Text="2"
+                    Foreground="#7D945D" 
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    />-->
+                
+                <Image 
+                Source="/white pawn1.png"
+                Width="50"
+                Height="50"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Name="WhitePawn1"
+                MouseLeftButtonDown="PionekLeftButtonDown"
+                MouseLeftButtonUp="PionekLeftButtonUp"
+                MouseMove="PionekMouseMove"
+                />
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="1" Grid.Column="1">
+                <Image 
+    Source="/black pawn2.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="3" Grid.Column="1">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="5" Grid.Column="1">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="7" Grid.Column="1">
+                <!--<TextBlock
+                    Text="b"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="0 30 4 0"
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    Foreground="#7D945D"
+                    />-->
+                <Image 
+                    Source="/white knight.png"
+                    Width="50"
+                    Height="50"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                />
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="0" Grid.Column="2">
+                <Image 
+    Source="/black bishop.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="2" Grid.Column="2">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="4" Grid.Column="2">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="6" Grid.Column="2">
+                <Image 
+    Source="/white pawn3.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="1" Grid.Column="3">
+                <Image 
+    Source="/black pawn4.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="3" Grid.Column="3">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="5" Grid.Column="3">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="7" Grid.Column="3">
+                <!--<TextBlock
+                    Text="d"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="0 30 4 0"
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    Foreground="#7D945D"
+                    />-->
+                <Image 
+    Source="/white queen.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="Gray" Grid.Row="0" Grid.Column="4">
+                <Image 
+    Source="/black king.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="2" Grid.Column="4">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="4" Grid.Column="4">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="6" Grid.Column="4">
+                <Image 
+    Source="/white pawn5.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="1" Grid.Column="5">
+                <Image 
+    Source="/black pawn6.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="3" Grid.Column="5">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="5" Grid.Column="5">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="7" Grid.Column="5">
+                <!--<TextBlock
+                    Text="f"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="0 30 4 0"
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    Foreground="#7D945D"
+                    />-->
+                <Image 
+    Source="/white bishop2.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="Gray" Grid.Row="0" Grid.Column="6">
+                <Image 
+    Source="/black knight2.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="2" Grid.Column="6">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="4" Grid.Column="6">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="6" Grid.Column="6">
+                <Image 
+    Source="/white pawn7.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="1" Grid.Column="7">
+                <Image 
+    Source="/black pawn8.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="3" Grid.Column="7">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="5" Grid.Column="7">
+
+            </WrapPanel>
+            <WrapPanel Background="gray" Grid.Row="7" Grid.Column="7">
+                <!--<TextBlock
+                    Text="h"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="0 30 4 0"
+                    FontWeight="Bold" 
+                    FontSize="15"
+                    Foreground="#7D945D"
+                    />-->
+                <Image 
+    Source="/white rook2.png"
+    Width="50"
+    Height="50"
+    VerticalAlignment="Center"
+    HorizontalAlignment="Center"
+/>
+            </WrapPanel>
+        </Grid>
+    </Grid>
+</Window>

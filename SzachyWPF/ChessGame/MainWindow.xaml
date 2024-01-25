@@ -1,0 +1,32 @@
+﻿<Window x:Class="ChessGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChessGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <WrapPanel Name="MyWrapPanel" Grid.Row="0">
+            <!-- Twoje elementy w WrapPanel -->
+            <Image Source="path/do/twojego/obrazka.png" Width="50" Height="50" 
+                   MouseLeftButtonDown="OnMouseDown" 
+                   MouseMove="OnMouseMove" 
+                   MouseLeftButtonUp="OnMouseUp"/>
+            <!-- Dodaj więcej elementów, jeśli to konieczne -->
+        </WrapPanel>
+
+        <Grid Name="MyGrid" Grid.Row="1">
+            <!-- Twoje komórki w Grid -->
+            <Rectangle Fill="LightGray" Width="100" Height="100" Margin="350,142,350,142"/>
+            <Rectangle Fill="LightGray" Width="100" Height="100" Margin="527,258,173,26"/>
+            <Rectangle Fill="LightGray" Width="100" Height="100" Margin="506,47,194,237"/>
+            <Rectangle Fill="LightGray" Width="100" Height="100" Margin="225,142,475,142"/>
+        </Grid>
+    </Grid>
+</Window>

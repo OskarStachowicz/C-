@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="black bishop.png" />
+    <None Remove="black bishop2.png" />
+    <None Remove="black king.png" />
+    <None Remove="black knight.png" />
+    <None Remove="black knight2.png" />
+    <None Remove="black pawn1.png" />
+    <None Remove="black pawn2.png" />
+    <None Remove="black pawn3.png" />
+    <None Remove="black pawn4.png" />
+    <None Remove="black pawn5.png" />
+    <None Remove="black pawn6.png" />
+    <None Remove="black pawn7.png" />
+    <None Remove="black pawn8.png" />
+    <None Remove="black queen.png" />
+    <None Remove="black rook.png" />
+    <None Remove="black rook2.png" />
+    <None Remove="white bishop.png" />
+    <None Remove="white bishop2.png" />
+    <None Remove="white king.png" />
+    <None Remove="white knight.png" />
+    <None Remove="white knight2.png" />
+    <None Remove="white pawn1.png" />
+    <None Remove="white pawn2.png" />
+    <None Remove="white pawn3.png" />
+    <None Remove="white pawn4.png" />
+    <None Remove="white pawn5.png" />
+    <None Remove="white pawn6.png" />
+    <None Remove="white pawn7.png" />
+    <None Remove="white pawn8.png" />
+    <None Remove="white queen.png" />
+    <None Remove="white rook.png" />
+    <None Remove="white rook2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="black bishop.png" />
+    <Resource Include="black bishop2.png" />
+    <Resource Include="black king.png" />
+    <Resource Include="black knight.png" />
+    <Resource Include="black knight2.png" />
+    <Resource Include="black pawn1.png" />
+    <Resource Include="black pawn2.png" />
+    <Resource Include="black pawn3.png" />
+    <Resource Include="black pawn4.png" />
+    <Resource Include="black pawn5.png" />
+    <Resource Include="black pawn6.png" />
+    <Resource Include="black pawn7.png" />
+    <Resource Include="black pawn8.png" />
+    <Resource Include="black queen.png" />
+    <Resource Include="black rook.png" />
+    <Resource Include="black rook2.png" />
+    <Resource Include="white bishop.png" />
+    <Resource Include="white bishop2.png" />
+    <Resource Include="white king.png" />
+    <Resource Include="white knight.png" />
+    <Resource Include="white knight2.png" />
+    <Resource Include="white pawn1.png" />
+    <Resource Include="white pawn2.png" />
+    <Resource Include="white pawn3.png" />
+    <Resource Include="white pawn4.png" />
+    <Resource Include="white pawn5.png" />
+    <Resource Include="white pawn6.png" />
+    <Resource Include="white pawn7.png" />
+    <Resource Include="white pawn8.png" />
+    <Resource Include="white queen.png" />
+    <Resource Include="white rook.png" />
+    <Resource Include="white rook2.png" />
+  </ItemGroup>
+
+</Project>

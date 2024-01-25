@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SzachyWPF", "SzachyWPF\SzachyWPF.csproj", "{0B307283-B263-4EBE-B861-2050B18C7070}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{F0FD28B8-5A8B-4027-84E9-0CA59C80A978}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\pawns chess\black bishop.png = ..\..\pawns chess\black bishop.png
+		..\..\pawns chess\black king.png = ..\..\pawns chess\black king.png
+		..\..\pawns chess\black knight.png = ..\..\pawns chess\black knight.png
+		..\..\pawns chess\black pawn.png = ..\..\pawns chess\black pawn.png
+		..\..\pawns chess\black queen.png = ..\..\pawns chess\black queen.png
+		..\..\pawns chess\black rook.png = ..\..\pawns chess\black rook.png
+		..\..\pawns chess\white bishop.png = ..\..\pawns chess\white bishop.png
+		..\..\pawns chess\white king.png = ..\..\pawns chess\white king.png
+		..\..\pawns chess\white knight.png = ..\..\pawns chess\white knight.png
+		..\..\pawns chess\white pawn.png = ..\..\pawns chess\white pawn.png
+		..\..\pawns chess\white queen.png = ..\..\pawns chess\white queen.png
+		..\..\pawns chess\white rook.png = ..\..\pawns chess\white rook.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwojaAplikacja", "TwojaAplikacja\TwojaAplikacja.csproj", "{CA3C4537-4C6D-49FB-995D-494B5C930159}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B307283-B263-4EBE-B861-2050B18C7070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B307283-B263-4EBE-B861-2050B18C7070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B307283-B263-4EBE-B861-2050B18C7070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B307283-B263-4EBE-B861-2050B18C7070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3C4537-4C6D-49FB-995D-494B5C930159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3C4537-4C6D-49FB-995D-494B5C930159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3C4537-4C6D-49FB-995D-494B5C930159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3C4537-4C6D-49FB-995D-494B5C930159}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC45F151-F69F-486D-9FED-9081DA9ABD69}
+	EndGlobalSection
+EndGlobal

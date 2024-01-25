@@ -1,0 +1,33 @@
+﻿<Window x:Class="TwojaAplikacja.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TwojaAplikacja"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <WrapPanel Name="MyWrapPanel" Grid.Row="0">
+            <!-- Twoje elementy w WrapPanel -->
+            <!-- Twoje elementy w WrapPanel -->
+            <!-- Dodaj więcej elementów, jeśli to konieczne -->
+        </WrapPanel>
+
+        <Grid Name="MyGrid" Grid.Row="1">
+            <!-- Twoje komórki w Grid -->
+            <Rectangle Fill="LightGray" Width="100" Height="100"/>
+            <Rectangle Fill="LightGray" Width="100" Height="100" Grid.Column="1"/>
+            <Rectangle Fill="LightGray" Width="100" Height="100" Grid.Row="1"/>
+            <Rectangle Fill="LightGray" Width="100" Height="100" Grid.Row="1" Grid.Column="1"/>
+            <Image Source="/black pawn1.png" 
+                   MouseLeftButtonDown="OnMouseDown" 
+                   MouseMove="OnMouseMove" 
+                   MouseLeftButtonUp="OnMouseUp" Margin="375,192,375,192"/>
+        </Grid>
+    </Grid>
+</Window>
